@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sysSales", "sysSales\sysSales.csproj", "{372393E6-A57E-44AB-80E4-1475F0AFABEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mdls", "Mdls\Mdls.csproj", "{A2C9AC25-014A-4CD8-A793-A72DA3E284FB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{372393E6-A57E-44AB-80E4-1475F0AFABEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372393E6-A57E-44AB-80E4-1475F0AFABEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372393E6-A57E-44AB-80E4-1475F0AFABEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372393E6-A57E-44AB-80E4-1475F0AFABEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C9AC25-014A-4CD8-A793-A72DA3E284FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C9AC25-014A-4CD8-A793-A72DA3E284FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C9AC25-014A-4CD8-A793-A72DA3E284FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C9AC25-014A-4CD8-A793-A72DA3E284FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
